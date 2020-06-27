@@ -1,7 +1,14 @@
-## Cornell Notes
-Create perfect study notes with the Cornell Notes Gutenberg Block for WordPress.
+## Cornell Notes Gutenberg Block
+#### Create perfect study notes with the Cornell Notes Gutenberg Block for WordPress.
 
 [Cornell Notes](https://en.wikipedia.org/wiki/Cornell_Notes) provides an excellent structure for organising and summarized your notes, ideas and concepts - this logical approach is an invaluable way to help learning and retention for students of all ages. This plugin provides a new, dedicated Cornell Notes Gutenberg block to enable you to quickly and easily take your notes within WordPress.
+
+### Installation
+1. Upload the entire `cornell-notes` folder to the `/wp-content/plugins/` directory
+2. Activate the plugin through the 'Plugins' menu in WordPress
+3. Navigate to any Gutenberg-enabled editing screen and select the 'Cornell Note' block from the `Common Blocks` tab
+4. Create your Cornell Note
+5. Learn and grow :)
 
 ### How to Use Cornell Notes
 1. Add your title at the top of the note - this is a summary of context of the notes.
@@ -23,13 +30,6 @@ There are currently no specific settings required by the Cornell Notes Block.
 
 ### Localization
 * English (default)
-
-### Installation
-1. Upload the entire `cornell-notes` folder to the `/wp-content/plugins/` directory
-2. Activate the plugin through the 'Plugins' menu in WordPress
-3. Navigate to any Gutenberg-enabled editing screen and select the 'Cornell Note' block from the `Common Blocks` tab
-4. Create your Cornell Note
-5. Learn and grow :)
 
 ### Frequently Asked Questions
 #### How can I style the block?
@@ -90,16 +90,12 @@ It's funny you should ask that - yes, definitely maybe.
 1.0 
 *Initial release into the wild*
 
-### Upgrade Notice
-1.0
-*Release*
-
 ### Translations
 * English - default
 This plugin is translation-ready
 
 ### How to Contribute to This Project
-All contributions are welcome - make a Pull Request or raise an issue on the [Github Repo](https://github.com/SeanBlakeley/cornell-notes/)
+All contributions are welcome - make a Pull Request or raise an issue.
 
 ### Plugin Creator
 [Sean Blakeley](https://github.com/SeanBlakeley)
