@@ -19,9 +19,9 @@ Create perfect study notes with the Cornell Notes Gutenberg Block.
 5. Learn and grow :)
 
 = How to Use Cornell Notes =
-1. Add your title at the top of the note - this is a summary of context of the notes - for example: `ES6 Main Concepts from Kyle Simpson` or `American Civil War Lecture: 06-20-2020`.
+1. Add your title at the top of the note - this is a summary of context of the notes.
 2. Take long-form notes in the right-hand column - you can take notes during a class, lecture, video tutorial or WordCamp Talk, it doesn't matter. Add as many ideas as you need - click the 'Add Idea' indicator to add a new idea.
-3. Once you've finished your notes, review them and summarise the concepts with key ideas in the left-hand column - for example: `Arrow Functions` or `Supply and Demand`.
+3. Once you've finished your notes, review them and summarise the concepts with key ideas in the left-hand column.
 4. Finally, summarize all the notes in a sentence or two at the bottom of the page.
 5. To fully benefit from Cornell Notes, you should consider adding [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition) to your learning plan.
 
@@ -93,10 +93,6 @@ It's funny you should ask that - yes, definitely maybe.
 2. Cornell Notes contains an 'Idea' block - only available as a child of the Cornell Note block
 3. The Cornell Note Block on the frontend (inheriting the theme styles)
 4. Simply add another idea to your Cornell Notes
-
-== Changelog ==
-1.0
-*Initial release into the wild*
 
 == Upgrade Notice ==
 1.0

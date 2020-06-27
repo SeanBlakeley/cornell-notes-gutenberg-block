@@ -86,10 +86,6 @@ It's funny you should ask that - yes, definitely maybe.
 ![Cornell Notes adds a new block to the editor](https://user-images.githubusercontent.com/1598104/85895221-293a2f80-b7ee-11ea-84c7-2308cdbd6bb5.png)
 > Cornell Notes adds a new block to the editor
 
-### Changelog
-1.0 
-*Initial release into the wild*
-
 ### Translations
 * English - default
 This plugin is translation-ready
