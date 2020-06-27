@@ -1,0 +1,96 @@
+/**
+ * #.# Styles
+ *
+ * CSS for both Frontend+Backend.
+ *
+ */
+
+.wp-block-cornell-notes-cornell-note {
+	border: var(--note-border-style, solid) var(--note-border-width, 1px) var(--note-border-color, #ccc);
+	padding: var(--note-body-padding, 15px);
+	display: flex;
+	flex-direction: column;
+
+	/* Needed to enable forcing summary to the bottom of the Notes */
+	.block-editor-block-list__layout {
+			display: flex;
+			flex-direction: column;
+	}
+
+	.block-editor-block-list__block {
+		margin: 0 auto;
+		width: 100%;
+	}
+
+	.wp-block {
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.cornell-note-title {
+		border-bottom: var(--note-border-style, solid) var(--note-border-width, 1px) var(--note-border-color, #ccc);
+		padding-bottom: var(--note-padding, 10px);
+		width: 100%;
+	}
+
+	.wp-block-cornell-notes-cornell-idea {
+		margin: 0 0 var(--note-padding, 10px) 0;
+		padding: var(--note-padding, 10px);
+		width: 100%;
+		border: var(--note-border-style, solid) var(--note-border-width, 1px) var(--note-border-color, #ccc);
+
+
+		/* Match the Gutenberg column breakpoint for adding our key ideas/long-form divider */
+		@media (min-width: 600px) {
+			margin: 0;
+			padding: 0;
+			border: none;
+		}
+
+		.cornell-note-idea {
+			margin: 0 !important; // force removal of `.alignwide` and `.alignfull` margins - just for the inner ideas block
+		}
+
+		.block-editor-block-list__layout {
+			flex-direction: unset;
+		}
+
+		.cornell-note-key-idea {
+			padding: var(--note-padding, 10px) 0;
+			margin-bottom: 0;
+
+			/* Match the Gutenberg column breakpoint for adding our key ideas/long-form divider */
+			@media (min-width: 600px) {
+				border-right: var(--note-border-style, solid) var(--note-border-width, 1px) var(--note-border-color, #ccc);
+				padding: calc(var(--note-padding, 10px) * 3) var(--note-padding, 10px);
+			}
+
+		}
+
+		.cornell-note-long-form {
+			padding: var(--note-padding, 10px) 0;
+
+			/* Match the Gutenberg column breakpoint */
+			@media (min-width: 600px) {
+				padding: calc(var(--note-padding, 10px) * 3) var(--note-padding, 10px);
+
+			}
+		}
+
+	}
+
+	.cornell-note-summary {
+		border-top: var(--note-border-style, solid) var(--note-border-width, 1px) var(--note-border-color, #ccc);
+		padding: var(--note-padding, 10px) 0;
+		order: 1; // force to bottom of card
+		width: 100%;
+		margin-top: 0;
+
+		/* Match the Gutenberg column breakpoint */
+		@media (min-width: 600px) {
+			margin-top: inherit;
+		}
+
+	}
+
+}
