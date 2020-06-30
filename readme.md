@@ -12,10 +12,8 @@
 
 ### How to Use Cornell Notes
 1. Add your title at the top of the note - this is a summary of context of the notes.
-*example:* `ES6 Main Concepts from Kyle Simpson` or `American Civil War Lecture: 06-20-2020`.
 2. Take long-form notes in the right-hand column - you can take notes during a class, lecture, video tutorial or WordCamp Talk, it doesn't matter. Add as many ideas as you need - click the 'Add Idea' indicator to add a new idea.
 3. Once you've finished your notes, review them and summarise the concepts with key ideas in the left-hand column
-*example:* `Arrow Functions` or `Supply and Demand`.
 4. Finally, summarize all the notes in a sentence or two at the bottom of the page.
 5. To fully benefit from Cornell Notes, you should consider adding [Spaced Repetition](https://en.wikipedia.org/wiki/Spaced_repetition) to your learning plan.
 
@@ -35,7 +33,7 @@ There are currently no specific settings required by the Cornell Notes Block.
 #### How can I style the block?
 The Cornell Notes Block contains minimalist styling - it should inherit the styles from you existing theme. Overriding the styles is straightforward (for reference, the Sass stylesheet can be found at: `cornell-notes/src/blocks/cornell-notes/styles.scss`
 
-> **Note**: The Summary section is forced to the bottom of the Cornell Note via Flexbox (`order: 1`) - this only affects the display - in the DOM, the Summary sits below the first key idea and long-form note.
+**Note**: The Summary section is forced to the bottom of the Cornell Note via Flexbox (`order: 1`) - this only affects the display - in the DOM, the Summary sits below the first key idea and long-form note.
 
 #### Style via CSS Variables
 CSS Variables are used with default settings - you can override these in your theme by setting the variables in the `root`
@@ -84,7 +82,7 @@ It's funny you should ask that - yes, definitely maybe.
 
 ### Screenshots
 ![Cornell Notes adds a new block to the editor](https://user-images.githubusercontent.com/1598104/85895221-293a2f80-b7ee-11ea-84c7-2308cdbd6bb5.png)
-> Cornell Notes adds a new block to the editor
+Cornell Notes adds a new block to the editor
 
 ### Translations
 * English - default

@@ -67,7 +67,7 @@ function cornell_notes_block_assets() { // phpcs:ignore
 	 * @since 1.16.0
 	 */
 	register_block_type(
-		'cgb/block-cornell-notes', array(
+		'cornell-notes/cornell-note', array(
 			// Enqueue blocks.style.build.css on both frontend & backend.
 			'style'         => 'cornell_notes-style-css',
 			// Enqueue blocks.build.js in the editor only.

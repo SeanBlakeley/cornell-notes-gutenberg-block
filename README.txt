@@ -4,14 +4,16 @@ Tags: Cornell Notes, notes, learning, note-taking, Gutenberg, study, note taking
 Requires at least: 5.3.4
 Requires PHP: 7.0
 Tested up to: 5.4.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Create perfect study notes with the Cornell Notes Gutenberg Block.
-
 == Description ==
-[Cornell Notes](https://en.wikipedia.org/wiki/Cornell_Notes) provides an excellent structure for organising and summarized your notes, ideas and concepts - this logical approach is an invaluable way to help learning and retention for students of all ages. This plugin provides a new, dedicated Cornell Notes Gutenberg block to enable you to quickly and easily take your notes within WordPress.
+**Create perfect study notes with the Cornell Notes Gutenberg Block.**
+
+[Cornell Notes](https://en.wikipedia.org/wiki/Cornell_Notes) provides an excellent structure for organising and summarized your notes, ideas and concepts - this logical approach is an invaluable way to help learning and retention for students of all ages.
+
+This plugin provides a new, dedicated Cornell Notes Gutenberg block to enable you to quickly and easily take your notes within WordPress.
 
 == Installation ==
 1. Upload the entire `cornell-notes` folder to the `/wp-content/plugins/` directory
@@ -20,8 +22,8 @@ Create perfect study notes with the Cornell Notes Gutenberg Block.
 4. Create your Cornell Note
 5. Learn and grow :)
 
-= How to Use Cornell Notes =
-1. Add your title at the top of the note - this is a summary of context of the notes.
+== How to Use Cornell Notes ==
+1. Add your title at the top of your note - this is a summary of context of the notes.
 2. Take long-form notes in the right-hand column - you can take notes during a class, lecture, video tutorial or WordCamp Talk, it doesn't matter. Add as many ideas as you need - click the 'Add Idea' indicator to add a new idea.
 3. Once you've finished your notes, review them and summarise the concepts with key ideas in the left-hand column.
 4. Finally, summarize all the notes in a sentence or two at the bottom of the page.
@@ -31,21 +33,13 @@ Cornell Notes contains a second block - an *Idea* block - this block is only mad
 
 There are currently no specific settings required by the Cornell Notes Block.
 
-== How to Extend This Plugin ==
-`npm install ` -- install all required dependencies.
-`npm start` -- serve the development version of the block.
-`npm run build` -- build the production-ready version of the block.
+== Screenshots ==
+1. Cornell Notes adds a new block to the editor
+2. Cornell Notes contains an 'Idea' block - only available as a child of the Cornell Note block
+3. The Cornell Note Block on the frontend (inheriting the theme styles)
+4. Simply add another idea to your Cornell Notes
 
-== Localization ==
-* English (default)
-
-== Frequently Asked Questions ==
-= How can I style the block? =
-The Cornell Notes Block contains minimalist styling - it should inherit the styles from you existing theme. Overriding the styles is straightforward (for reference, the Sass stylesheet can be found at: `cornell-notes/src/blocks/cornell-notes/styles.scss`
-
-> **Note**: The Summary section is forced to the bottom of the Cornell Note via Flexbox (`order: 1`) - this only affects the display - in the DOM, the Summary sits below the first key idea and long-form note.
-
-= Style via CSS Variables =
+== Style via CSS Variables ==
 CSS Variables are used with default settings - you can override these in your theme by setting the variables in the `root`
 ```
 :root{
@@ -57,7 +51,7 @@ CSS Variables are used with default settings - you can override these in your th
 }
 ```
 
-= Style via Classes =
+== Style via Classes ==
 The structure to the Cornell Notes Block:
 ```
 .wp-block-cornell-notes-cornell-note
@@ -68,6 +62,15 @@ The structure to the Cornell Notes Block:
 	.cornell-note-summary /* forced to the bottom of the note via Flexbox */
 ```
 (This structure is simplified - you will find additional classes added via Gutenberg)
+
+== Localization ==
+* English (default)
+
+== Frequently Asked Questions ==
+= How can I style the block? =
+The Cornell Notes Block contains minimalist styling - it should inherit the styles from you existing theme. Overriding the styles is straightforward (for reference, the Sass stylesheet can be found at: `cornell-notes/src/blocks/cornell-notes/styles.scss`
+
+**Note**: The Summary section is forced to the bottom of the Cornell Note via Flexbox (`order: 1`) - this only affects the display - in the DOM, the Summary sits below the first key idea and long-form note.
 
 = Why am I getting some different styling at different device sizes? =
 By default, The Cornell Note Block is responsive and has a small amount of styling which changes at 600px width.  If you want to override these styles, try adding the 600px [breakpoint](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) to your theme styles.
@@ -90,12 +93,6 @@ The Cornell Notes block is a composite of core blocks - so you get all the usual
 = Are there any ambitions to extend the plugin to incorporate Spaced Repetition? =
 It's funny you should ask that - yes, definitely maybe.
 
-== Screenshots ==
-1. Cornell Notes adds a new block to the editor
-2. Cornell Notes contains an 'Idea' block - only available as a child of the Cornell Note block
-3. The Cornell Note Block on the frontend (inheriting the theme styles)
-4. Simply add another idea to your Cornell Notes
-
 == Upgrade Notice ==
 1.0
 *Release*
@@ -109,9 +106,6 @@ All contributions are welcome - make a Pull Request or raise an issue on the [Gi
 
 ==Plugin Creator==
 [Sean Blakeley](https://github.com/SeanBlakeley)
-
-== Test Notes ==
-Tested up to version 8.4.0 of the [Gutenberg Development Plugin](https://wordpress.org/plugins/gutenberg/)
 
 == Credits ==
 This project was bootstrapped with [Create Guten Block](https://github.com/ahmadawais/create-guten-block).
