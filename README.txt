@@ -2,10 +2,9 @@
 Contributors: sean-blakeley
 Tags: Cornell Notes, notes, learning, note-taking, Gutenberg, study, note taking, study-aid, development, block
 Requires at least: 5.3.4
-Tested up to: 5.4
 Requires PHP: 7.0
 Tested up to: 5.4.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
@@ -110,6 +109,9 @@ All contributions are welcome - make a Pull Request or raise an issue on the [Gi
 
 ==Plugin Creator==
 [Sean Blakeley](https://github.com/SeanBlakeley)
+
+== Test Notes ==
+Tested up to version 8.4.0 of the [Gutenberg Development Plugin](https://wordpress.org/plugins/gutenberg/)
 
 == Credits ==
 This project was bootstrapped with [Create Guten Block](https://github.com/ahmadawais/create-guten-block).

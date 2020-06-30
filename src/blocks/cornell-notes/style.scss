@@ -39,7 +39,6 @@
 		width: 100%;
 		border: var(--note-border-style, solid) var(--note-border-width, 1px) var(--note-border-color, #ccc);
 
-
 		/* Match the Gutenberg column breakpoint for adding our key ideas/long-form divider */
 		@media (min-width: 600px) {
 			margin: 0;
@@ -47,12 +46,26 @@
 			border: none;
 		}
 
+		/* Overrides for Gutenberg columns */
+		.block-editor-block-list__block {
+			margin: 0 !important;
+			width: 100%;
+		}
+
 		.cornell-note-idea {
 			margin: 0 !important; // force removal of `.alignwide` and `.alignfull` margins - just for the inner ideas block
 		}
 
+		// Remove large top and bottom margin for Gutenberg < Version 8.4.0
+		.block-list-appender {
+			margin: 0;
+		}
+
 		.block-editor-block-list__layout {
-			flex-direction: unset;
+			@media (min-width: 600px) {
+				flex-direction: unset;
+			}
+
 		}
 
 		.cornell-note-key-idea {
@@ -79,6 +92,11 @@
 
 	}
 
+	// for Gutenberg < Version 8.4.0
+	[data-type="core/heading"]:nth-of-type(3) {
+		order: 1;
+	}
+
 	.cornell-note-summary {
 		border-top: var(--note-border-style, solid) var(--note-border-width, 1px) var(--note-border-color, #ccc);
 		padding: var(--note-padding, 10px) 0;
@@ -91,6 +109,14 @@
 			margin-top: inherit;
 		}
 
+	}
+
+	// Column margin reset for Gutenberg < Version 8.4.0
+	@media (min-width: 600px) {
+		.wp-block-columns>.block-editor-inner-blocks>.block-editor-block-list__layout>[data-type="core/column"]:nth-child(2n) {
+			margin-left: 0;
+			padding-left: calc(var(--note-padding, 10px) * 3);
+		}
 	}
 
 }
