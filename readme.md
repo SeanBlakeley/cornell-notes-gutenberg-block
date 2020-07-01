@@ -1,3 +1,5 @@
+![Cornell Notes Gutenberg Block](https://user-images.githubusercontent.com/1598104/86223479-808a2800-bb7f-11ea-8ecb-21be3e7a368b.jpg)
+
 ## Cornell Notes Gutenberg Block
 #### Create perfect study notes with the Cornell Notes Gutenberg Block for WordPress.
 

@@ -1,6 +1,6 @@
 {
-  "name": "cornell-notes",
-  "version": "1.0.2",
+  "name": "cornell-notes-gutenberg-block",
+  "version": "1.0.3",
   "private": true,
   "scripts": {
     "start": "cgb-scripts start",

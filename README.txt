@@ -1,4 +1,4 @@
-=== Cornell Notes ===
+=== Cornell Notes Gutenberg Block ===
 Contributors: sean-blakeley
 Tags: Cornell Notes, notes, learning, note-taking, Gutenberg, study, note taking, study-aid, development, block
 Requires at least: 5.3.4
@@ -52,7 +52,7 @@ CSS Variables are used with default settings - you can override these in your th
 ```
 
 == Style via Classes ==
-The structure to the Cornell Notes Block:
+The structure of the Cornell Notes Block:
 ```
 .wp-block-cornell-notes-cornell-note
 	.cornell-note-title
@@ -102,10 +102,7 @@ It's funny you should ask that - yes, definitely maybe.
 This plugin is translation-ready
 
 ==How to Contribute to This Project==
-All contributions are welcome - make a Pull Request or raise an issue on the [Github Repo](https://github.com/SeanBlakeley/cornell-notes/)
+All contributions are welcome - make a Pull Request or raise an issue on the [Github Repo](https://github.com/SeanBlakeley/cornell-notes-gutenberg-block)
 
 ==Plugin Creator==
 [Sean Blakeley](https://github.com/SeanBlakeley)
-
-== Credits ==
-This project was bootstrapped with [Create Guten Block](https://github.com/ahmadawais/create-guten-block).
