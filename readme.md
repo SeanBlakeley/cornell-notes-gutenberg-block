@@ -38,7 +38,7 @@ The Cornell Notes Block contains minimalist styling - it should inherit the styl
 **Note**: The Summary section is forced to the bottom of the Cornell Note via Flexbox (`order: 1`) - this only affects the display - in the DOM, the Summary sits below the first key idea and long-form note.
 
 #### Style via CSS Variables
-CSS Variables are used with default settings - you can override these in your theme by setting the variables in the `root`
+[CSS Variables](https://www.scaler.com/topics/css/css-variables/) are used with default settings - you can override these in your theme by setting the variables in the `root`
 ```
 :root{
     --note-border-style: dotted;  
